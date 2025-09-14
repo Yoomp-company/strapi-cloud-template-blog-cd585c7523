@@ -55,7 +55,7 @@
       "required": false
     },
     "keywords": {
-      "type": "string",
+      "type": "json",
       "required": false
     },
     "canonical": {

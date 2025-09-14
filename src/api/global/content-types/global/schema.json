@@ -30,6 +30,39 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.seo"
+    },
+    "gtmId": {
+      "type": "string",
+      "required": false
+    },
+    "googleAnalytics": {
+      "type": "string", 
+      "required": false
+    },
+    "yandexMetrika": {
+      "type": "string",
+      "required": false
+    },
+    "facebookPixel": {
+      "type": "string",
+      "required": false
+    },
+    "robots": {
+      "type": "text",
+      "required": false,
+      "default": "User-agent: *\nDisallow:"
+    },
+    "schema": {
+      "type": "json",
+      "required": false
+    },
+    "social": {
+      "type": "json",
+      "required": false
+    },
+    "domain": {
+      "type": "string",
+      "required": false
     }
   }
 }

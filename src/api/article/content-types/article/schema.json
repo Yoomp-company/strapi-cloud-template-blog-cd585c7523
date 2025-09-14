@@ -10,7 +10,11 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "title": {
       "type": "string"
@@ -44,6 +48,25 @@
     "blocks": {
       "type": "dynamiczone",
       "components": ["shared.media", "shared.quote", "shared.rich-text", "shared.slider"]
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "required": false
+    },
+    "keywords": {
+      "type": "string",
+      "required": false
+    },
+    "canonical": {
+      "type": "string",
+      "required": false
+    },
+    "publishedAt": {
+      "type": "datetime"
+    },
+    "updatedAt": {
+      "type": "datetime"
     }
   }
 }
